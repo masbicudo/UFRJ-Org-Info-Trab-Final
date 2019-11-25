@@ -1,0 +1,20 @@
+{
+  "name": "UFRJ-Org-Info-Trab-Final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fastify": "^2.10.0",
+    "fastify-static": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.12"
+  },
+  "scripts": {
+    "build": "tsc -w",
+    "start": "fastify start -p 3000 -w build/main.js",
+    "serve": "node build/server.js"
+  },
+  "author": "Miguel Angelo (masbicudo@gmail.com)",
+  "license": "MIT"
+}
