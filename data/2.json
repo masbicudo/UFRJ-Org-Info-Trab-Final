@@ -1,0 +1,13 @@
+{
+    "name": "Coca-Cola (PET 600ml)",
+    "factors": [
+        {
+            "name": "Refrigerante",
+            "value": 2
+        },
+        {
+            "name": "Plastico, geral",
+            "value": 0.025
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Coca-Cola (lata 350ml)",
+    "factors": [
+        {
+            "name": "Refrigerante",
+            "value": 1
+        },
+        {
+            "name": "Alumínio, geral",
+            "value": 0.025
+        }
+    ]
+}

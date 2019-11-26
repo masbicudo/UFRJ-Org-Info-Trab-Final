@@ -1,0 +1,97 @@
+{
+    "groups": [
+        {
+            "title": "Materiais comuns",
+            "items": [
+                { "name": "Agregados, geral", "value": 0.01, "unit": "kg" },
+                { "name": "Alumínio, geral", "value": 9.20, "unit": "kg" },
+                { "name": "Latão, geral", "value": 2.61, "unit": "kg" },
+                { "name": "Bronze, geral", "value": 4.41, "unit": "kg" },
+                { "name": "Cerâmicas, geral", "value": 0.69, "unit": "kg" },
+                { "name": "Cobre, geral", "value": 3.22, "unit": "kg" },
+                { "name": "Vidro, geral", "value": 0.90, "unit": "kg" },
+                { "name": "Ferro, geral", "value": 2.08, "unit": "kg" },
+                { "name": "Chumbo, geral", "value": 1.41, "unit": "kg" },
+                { "name": "Crômio", "value": 6.97, "unit": "kg" },
+                { "name": "Algodão, enchimento", "value": 1.66, "unit": "kg" },
+                { "name": "Algodão, tecido", "value": 8.77, "unit": "kg" },
+                { "name": "Fibra de vidro (GRP)", "value": 8.87, "unit": "kg" },
+                { "name": "Metais preciosos", "value": 6.69, "unit": "kg" },
+                { "name": "Lã genérica", "value": 0.19, "unit": "kg" },
+                { "name": "Água", "value": 0.02, "unit": "kg" },
+                { "name": "Tinta, geral", "value": 4.13, "unit": "kg" },
+                { "name": "Papel e papelão, geral", "value": 1.55, "unit": "kg" },
+                { "name": "Plasticos, geral", "value": 3.09, "unit": "kg" },
+                { "name": "Borracha, geral", "value": 4.39, "unit": "kg" },
+                { "name": "Borracha, natural", "value": 1.78, "unit": "kg" },
+                { "name": "Aço, geral", "value": 1.91, "unit": "kg" },
+                { "name": "Aço, inoxidável", "value": 6.44, "unit": "kg" },
+                { "name": "Pedra, geral", "value": 0.06, "unit": "kg" },
+                { "name": "Madeira, geral", "value": 0.47, "unit": "kg" },
+                { "name": "Aço estanhado", "value": 2.10, "unit": "kg" },
+                { "name": "Estanho, geral", "value": 14.52, "unit": "kg" },
+                { "name": "Zinco, geral", "value": 3.56, "unit": "kg" },
+                { "name": "Têxtil, geral", "value": 4.68, "unit": "kg" },
+                { "name": "Metal, geral", "value": 1.82, "unit": "kg" },
+                { "name": "Alimentos de fonte vegetal", "value": 2.10, "unit": "kg" },
+                { "name": "Alimentos de fonte animal", "value": 3.43, "unit": "kg" },
+            ]
+        },
+        {
+            "title": "Transporte de carga",
+            "items": [
+                { "name": "Ferrovia", "value": 0.00002, "unit": "kg*km" },
+                { "name": "Navio", "value": 0.00001, "unit": "kg*km" },
+                { "name": "Aéreo", "value": 0.00139, "unit": "kg*km" },
+                { "name": "Veículo de cargas pesados", "value": 0.00013, "unit": "kg*km" },
+                { "name": "Veículo de cargas leves", "value": 0.00028, "unit": "kg*km" }
+            ]
+        },
+        {
+            "title": "Meio de transporte",
+            "items": [
+                { "name": "Veículo de cargas leves", "value": 0.27, "unit": "veículo*km" },
+                { "name": "Carro", "value": 0.20, "unit": "veículo*km" }
+            ]
+        },
+        {
+            "title": "Transporte de passageiros",
+            "items": [
+                { "name": "Avião", "value": 0.14, "unit": "passageiro*km" },
+                { "name": "Ônibus ou micro-ônibus", "value": 0.07, "unit": "passageiro*km" },
+                { "name": "Trem", "value": 0.07, "unit": "passageiro*km" }
+            ]
+        },
+        {
+            "title": "Energia",
+            "items": [
+                { "name": "Gasolina", "value": 0.19, "unit": "kWh" },
+                { "name": "Eletricidade da rede", "value": 0.54, "unit": "kWh" },
+                { "name": "Eletricidade e calor (cogeração)", "value": 0.30, "unit": "kWh" },
+                { "name": "Óleo combustível", "value": 0.27, "unit": "kWh" },
+                { "name": "Lenha", "value": 0.03, "unit": "kWh" }
+            ]
+        },
+        {
+            "title": "Combustível",
+            "items": [
+                { "name": "Diesel", "value": 2.63, "unit": "L" },
+                { "name": "Petróleo", "value": 2.32, "unit": "L" },
+            ]
+        },
+        {
+            "title": "Comidas e bebidas",
+            "items": [
+                { "name": "Sanduiche e refrigerante", "value": 1.58, "unit": "porção" },
+                { "name": "Sanduiche e chá", "value": 0.59, "unit": "porção" },
+                { "name": "Hamburguer, batatas e refrigerante", "value": 2.05, "unit": "porção" },
+                { "name": "Refeição saudável e água", "value": 1.07, "unit": "porção" },
+                { "name": "Refeição com sobremesa e vinho", "value": 2.51, "unit": "porção" },
+                { "name": "Refrigerante", "value": 1.20, "unit": "porção" },
+                { "name": "Chá/café", "value": 0.22, "unit": "porção" },
+                { "name": "Cerveja", "value": 1.69, "unit": "porção" },
+                { "name": "Água engarrafada", "value": 0.02, "unit": "porção" },
+            ]
+        }
+    ]
+}

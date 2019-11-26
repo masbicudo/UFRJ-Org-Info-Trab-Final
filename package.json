@@ -8,6 +8,7 @@
     "fastify-static": "^2.5.0"
   },
   "devDependencies": {
+    "@types/jquery": "^3.3.31",
     "@types/node": "^12.12.12"
   },
   "scripts": {

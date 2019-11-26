@@ -1,3 +1,17 @@
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+.detalhes {
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    display: block; /* For Firefox */
+    cursor: text;
+}
+
+body {
+    margin: 10px;
 }
