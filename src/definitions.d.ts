@@ -1,12 +1,12 @@
 declare namespace JSX {
     interface IntrinsicElements {
-        [id: string]: any
+        innerHTML: string
+        [prop: string]: any
     }
 }
 declare class React {
-    
 }
 
 interface JQuery {
-    selectpicker(action : string): JQuery;
+    selectpicker(action?: string): JQuery;
 }

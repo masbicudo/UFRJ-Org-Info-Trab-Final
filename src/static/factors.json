@@ -34,7 +34,7 @@
                 { "name": "Têxtil, geral", "value": 4.68, "unit": "kg" },
                 { "name": "Metal, geral", "value": 1.82, "unit": "kg" },
                 { "name": "Alimentos de fonte vegetal", "value": 2.10, "unit": "kg" },
-                { "name": "Alimentos de fonte animal", "value": 3.43, "unit": "kg" },
+                { "name": "Alimentos de fonte animal", "value": 3.43, "unit": "kg" }
             ]
         },
         {
@@ -76,7 +76,7 @@
             "title": "Combustível",
             "items": [
                 { "name": "Diesel", "value": 2.63, "unit": "L" },
-                { "name": "Petróleo", "value": 2.32, "unit": "L" },
+                { "name": "Petróleo", "value": 2.32, "unit": "L" }
             ]
         },
         {
@@ -90,7 +90,7 @@
                 { "name": "Refrigerante", "value": 1.20, "unit": "porção" },
                 { "name": "Chá/café", "value": 0.22, "unit": "porção" },
                 { "name": "Cerveja", "value": 1.69, "unit": "porção" },
-                { "name": "Água engarrafada", "value": 0.02, "unit": "porção" },
+                { "name": "Água engarrafada", "value": 0.02, "unit": "porção" }
             ]
         }
     ]
