@@ -12,10 +12,12 @@ const server: fastify.FastifyInstance<Server, IncomingMessage, ServerResponse> =
 // Declare a route
 plg(server, null, ()=>{})
 
+var private_ip = process.argv?.[2] ?? "127.0.0.1"
+
 // Run the server!
 const start = async () => {
   try {
-    await server.listen(3000)
+    await server.listen(80, private_ip)
     server.log.info(`server listening on ${(<AddressInfo>server.server.address())?.port}`)
   } catch (err) {
     server.log.error(err)

@@ -73,18 +73,27 @@ Then run the server, if you copied everything to the `build` folder already:
 
     cd build
     npm install
-    node server.js
+    sudo node server.js $(ec2metadata --local-ipv4)
 
-## Screen
+## Keep process running after closing ssh connection
+
+[Keep running a python program even after logging-off the ssh session [duplicate] - askubuntu](https://askubuntu.com/questions/921494/keep-running-a-python-program-even-after-logging-off-the-ssh-session)
+
+### screen
 
 The screen command can be used to keep a process running
 in the server when the user closes the ssh connection.
 
+ref: https://superuser.com/questions/454907/how-to-execute-a-command-in-screen-and-detach
 ref: https://dev.to/bobbyiliev/how-to-keep-a-process-running-even-after-closing-ssh-connection-3cek
 
 Create a new screen
 
     screen -S SOME_NAME_HERE
+
+Detach from session:
+
+    ctrl+a ctrl+d
 
 Restore a previously created screen
 
@@ -94,6 +103,9 @@ Lists the available screens
 
     screen -ls
 
+Running nodejs server using `screen` in a single line:
+
+    screen -dmS server sudo node server.js $(ec2metadata --local-ipv4)
 
 # References
 
