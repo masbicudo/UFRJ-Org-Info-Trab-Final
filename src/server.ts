@@ -2,7 +2,7 @@
 import * as fastify from 'fastify'
 import { Server, IncomingMessage, ServerResponse } from 'http'
 import { AddressInfo } from 'net'
-const plg = require('./plugin')
+const plg = require('./main')
 
 // Create a http server. We pass the relevant typings for our http version used.
 // By passing types we get correctly typed access to the underlying http objects in routes.

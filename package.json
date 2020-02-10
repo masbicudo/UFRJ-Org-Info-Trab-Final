@@ -13,7 +13,8 @@
     "@types/jquery": "^3.3.31",
     "@types/node": "^12.12.12",
     "@types/proper-lockfile": "^4.1.1",
-    "@types/source-map-support": "^0.5.0"
+    "@types/source-map-support": "^0.5.0",
+    "typescript": "^3.7.3"
   },
   "scripts": {
     "build": "tsc -w",
